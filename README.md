@@ -4,7 +4,7 @@ A GitBucket plugin that adds H2 console to the administration console.
 
 ![H2 Console](h2console.png)
 
-Since GitBucket 4.21.0, H2 console has been dropped from the administration console because a new database viewer was introduced. However, if you still need H2 console, you can add it by installing this plugin. 
+Since GitBucket 4.21.0, H2 console has been dropped from the administration console because a new database viewer was introduced. If you still need H2 console, you can add it by installing this plugin. 
 
 ## Compatibility
 
