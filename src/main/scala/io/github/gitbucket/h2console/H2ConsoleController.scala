@@ -13,6 +13,14 @@ class H2ConsoleController extends ControllerBase with AdminAuthenticator {
   }
   servlet.init()
 
+  get("/h2console")(adminOnly {
+    servlet.doGet(new WrappedRequest(request, ""), response)
+  })
+
+  post("/h2console")(adminOnly {
+    servlet.doGet(new WrappedRequest(request, ""), response)
+  })
+
   get("/h2console/*")(adminOnly {
     servlet.doGet(new WrappedRequest(request, multiParams("splat").head), response)
   })

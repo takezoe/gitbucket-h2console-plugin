@@ -10,6 +10,7 @@ Since GitBucket 4.21.0, H2 console has been dropped from the administration cons
 
 Plugin version | GitBucket version
 :--------------|:--------------------
+1.1.x -        | 4.23.x -
 1.0.x -        | 4.21.x -
 
 ## Installation
